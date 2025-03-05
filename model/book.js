@@ -37,3 +37,5 @@ export class PhysicalBook extends Book{
                `Shelf: ${this.shelfLocation}`;
     }
 }
+
+// export default {Book, EBook, PhysicalBook};
