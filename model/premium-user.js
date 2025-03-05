@@ -1,4 +1,6 @@
-class PremiumUser extends User {
+import User from './user.js';
+
+export default class PremiumUser extends User {
 
     constructor(id, name, borrowedBooks = []) {
         super(id, name, borrowedBooks);

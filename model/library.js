@@ -1,4 +1,6 @@
-class Library {
+import {PhysicalBook} from './book.js';
+
+export default class Library {
     constructor(name, books = [], users = []) {
         this.name = name;
         this.books = books;

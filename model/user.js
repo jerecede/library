@@ -1,4 +1,4 @@
-class User {
+export default class User {
 
     static MAX_BORROW_LIMIT = 3;
 
